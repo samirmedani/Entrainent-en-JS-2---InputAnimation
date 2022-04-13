@@ -1,42 +1,70 @@
+/* Tous mes élements sur la pages ont la font */
 * {
-    font-family: 'League Spartan', sans-serif;
+    font-family: 'League Spartan', sans-serif; 
 }
 
 .container {
     display: flex;
     flex-direction: column;
-
-    
 }
 
+
 #a-input {
+    /* taille de mon input */
     width: 400px;
     height: 50px;
+
+    /* positionnement internet input */
+    padding-left: 1em;
+
+    /* taille police */
+    font-size: 1.3em;
+
+    /* déco de mon input */
     border-radius: 9px;
     background-color: #d9cff3;
     
 }
 
 #a-input:focus {
+    /* retirer la bordure bleu lorsqu'on clique sur input */
     outline: none;
 }
 
+
+
 body {
-    background-color: hsl(222, 26%, 31%); 
-    height: 100vh;
+    /* Positionnement des élements  */
     display: flex;
     align-items: center;
     justify-content: center;
+    
+    /* Ajout une hauteur visuelle */
+    height: 100vh; 
+
+    /* déco */
+    background-color: hsl(222, 26%, 31%); 
+    
+    
 }
 
+/* Mon titre h1 "InputAnimation" */
 h1 {
+
     font-weight: 700;
     text-decoration: underline;
     color: white;
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: black;
-    -webkit-animation: alternate;
 }
 
 
+
+/* paragraphe en bas afin d'expliquer le but du site */
+p {
+    margin-top: 10px;
+    color: white;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: black;
+}
 
